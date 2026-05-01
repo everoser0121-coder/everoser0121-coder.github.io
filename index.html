@@ -1,1 +1,75 @@
-<h1>qinaemusic</h1>
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>柒奈音樂 - qinaemusic</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:#0a0a12;color:#f0f0ff;font-family:'Noto Sans TC','PingFang TC',sans-serif;min-height:100vh;}
+  header{background:linear-gradient(135deg,#0a0a12 0%,#1a0a2e 50%,#0a1a2e 100%);padding:80px 20px;text-align:center;position:relative;overflow:hidden;border-bottom:1px solid rgba(162,89,255,0.3);}
+  header::before{content:'';position:absolute;width:500px;height:500px;background:radial-gradient(circle,rgba(162,89,255,0.25),transparent 70%);top:-150px;left:50%;transform:translateX(-50%);border-radius:50%;}
+  header::after{content:'';position:absolute;width:300px;height:300px;background:radial-gradient(circle,rgba(0,212,255,0.15),transparent 70%);bottom:-100px;right:10%;border-radius:50%;}
+  .logo{font-size:56px;font-weight:900;background:linear-gradient(135deg,#ff6eb4,#a259ff,#00d4ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:12px;position:relative;z-index:1;letter-spacing:-1px;}
+  .logo-en{font-size:18px;font-weight:600;color:rgba(162,89,255,0.8);letter-spacing:6px;margin-bottom:12px;position:relative;z-index:1;}
+  .tagline{font-size:15px;color:rgba(200,210,255,0.7);position:relative;z-index:1;}
+  .container{max-width:900px;margin:0 auto;padding:40px 20px;}
+  h2{font-size:22px;margin-bottom:20px;background:linear-gradient(135deg,#a259ff,#00d4ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+  .apps-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin-bottom:40px;}
+  .app-card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:20px;text-align:center;transition:all 0.2s;}
+  .app-card:hover{background:rgba(255,255,255,0.08);border-color:rgba(162,89,255,0.4);}
+  .app-icon{font-size:36px;margin-bottom:10px;}
+  .app-name{font-size:14px;font-weight:700;margin-bottom:4px;}
+  .app-desc{font-size:11px;color:rgba(240,240,255,0.5);}
+  .section-label{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(240,240,255,0.4);margin-bottom:14px;margin-top:32px;}
+  .contact{background:rgba(255,255,255,0.05);border-radius:16px;padding:24px;margin-bottom:40px;}
+  .contact p{font-size:14px;color:rgba(240,240,255,0.7);margin-bottom:8px;}
+  .contact a{color:#00d4ff;text-decoration:none;}
+  footer{text-align:center;padding:24px;font-size:13px;color:rgba(240,240,255,0.3);}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">柒奈音樂</div>
+  <div class="logo-en">QINAEMUSIC</div>
+  <div class="tagline">✦ 專業音訊工具開發者 · Professional Audio Tools ✦</div>
+</header>
+<div class="container">
+
+  <h2>我們的應用程式</h2>
+
+  <div class="section-label">🎵 LRC 系列</div>
+  <div class="apps-grid">
+    <div class="app-card"><div class="app-icon">📝</div><div class="app-name">LRC 歌詞</div><div class="app-desc">LRC Editor</div></div>
+    <div class="app-card"><div class="app-icon">🔤</div><div class="app-name">LRC 逐字歌詞</div><div class="app-desc">Word by Word</div></div>
+    <div class="app-card"><div class="app-icon">▶️</div><div class="app-name">LRC 播放器</div><div class="app-desc">LRC Player</div></div>
+    <div class="app-card"><div class="app-icon">🎤</div><div class="app-name">LRC KTV</div><div class="app-desc">LRC KTV App</div></div>
+  </div>
+
+  <div class="section-label">🎚️ 音訊處理</div>
+  <div class="apps-grid">
+    <div class="app-card"><div class="app-icon">🎵</div><div class="app-name">音樂變調器</div><div class="app-desc">Key Shifter</div></div>
+    <div class="app-card"><div class="app-icon">⏩</div><div class="app-name">音樂變速器</div><div class="app-desc">Speed Shifter</div></div>
+    <div class="app-card"><div class="app-icon">🎚️</div><div class="app-name">音質增強</div><div class="app-desc">AudioLift</div></div>
+    <div class="app-card"><div class="app-icon">🎤</div><div class="app-name">KTV 導唱製作</div><div class="app-desc">KaraokeGuide</div></div>
+    <div class="app-card"><div class="app-icon">🔊</div><div class="app-name">音量均衡</div><div class="app-desc">VolumeSync</div></div>
+    <div class="app-card"><div class="app-icon">🔄</div><div class="app-name">格式轉換</div><div class="app-desc">AudioConvert</div></div>
+  </div>
+
+  <div class="section-label">🛠️ 工具</div>
+  <div class="apps-grid">
+    <div class="app-card"><div class="app-icon">🎙️</div><div class="app-name">語音錄音機</div><div class="app-desc">Voice Recorder</div></div>
+    <div class="app-card"><div class="app-icon">🔔</div><div class="app-name">鈴聲製作器</div><div class="app-desc">Ringtone Maker</div></div>
+  </div>
+
+  <h2>聯絡我們</h2>
+  <div class="contact">
+    <p>📧 電子郵件：<a href="mailto:everoser0121@gmail.com">everoser0121@gmail.com</a></p>
+    <p>🌐 開發者：柒奈音樂 (qinaemusic)</p>
+    <p>📍 台灣</p>
+  </div>
+
+</div>
+<footer>© 2026 柒奈音樂 qinaemusic. All rights reserved.</footer>
+</body>
+</html>
